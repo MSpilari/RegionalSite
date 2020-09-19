@@ -1,0 +1,67 @@
+@import '../../_variable.scss';
+
+.header {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: $background-green;
+  border-bottom: solid 3px $secondary-color;
+
+  .imgInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .imgInfo__img {
+      width: 70%;
+      max-width: 350px;
+    }
+
+    .imgInfo__info {
+      display: none;
+    }
+
+    .imgInfo__button {
+      border: none;
+      background-color: #0000;
+      margin-right: 20px;
+      cursor: pointer;
+      outline: none;
+
+      .imgInfo__menu {
+        width: 20px;
+      }
+    }
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+
+    .list__item {
+      list-style: none;
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+    }
+  }
+}
+
+@media (min-width: $desktop-small) {
+  .imgInfo__button {
+    display: none;
+  }
+
+  .header {
+    .imgInfo {
+      .imgInfo__img {
+        width: 40%;
+      }
+      .imgInfo__info {
+        display: flex;
+      }
+    }
+  }
+}

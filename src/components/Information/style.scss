@@ -1,0 +1,13 @@
+.information {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .information__img {
+    width: 30px;
+  }
+  .information__div {
+    display: flex;
+    flex-direction: column;
+  }
+}
