@@ -1,13 +1,32 @@
+@import '../../_variable';
+
 .information {
   display: flex;
   align-items: center;
-  justify-content: center;
+  height: 100%;
+  width: 300px;
+  margin-left: 5px;
 
-  .information__img {
-    width: 30px;
-  }
   .information__div {
     display: flex;
     flex-direction: column;
   }
+
+  .information__title {
+    color: $primary-color;
+    font: 700 1rem Roboto;
+  }
+
+  .information__desc {
+    color: $primary-color;
+    font: 400 0.9rem Roboto;
+  }
+}
+
+.fa-mobile-alt,
+.fa-clock,
+.fa-envelope {
+  color: $secondary-color;
+  font-size: 1.5rem;
+  margin-right: 10px;
 }

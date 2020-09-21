@@ -1,0 +1,14 @@
+@import '../../variable';
+.social {
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+
+  margin: 0 5px 0 5px;
+
+  .social__anchor {
+    color: $secondary-color;
+    font-size: 1.4rem;
+  }
+}

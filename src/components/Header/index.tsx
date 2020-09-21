@@ -1,11 +1,9 @@
 import React from 'react'
 
 import Information from '../Information'
+import SocialLinks from '../SocialLinks'
 import RhegionalLogo from '../../assets/RhegionalLogo.svg'
 import MenuButton from '../../assets/MenuButton.svg'
-import Mobile from '../../assets/mobile.svg'
-import Clock from '../../assets/clock.svg'
-import Mail from '../../assets/envelope.svg'
 
 import './style.scss'
 
@@ -21,23 +19,32 @@ const Header: React.FC = () => {
         <img className="imgInfo__img" src={RhegionalLogo} alt="Logo" />
         <div className="imgInfo__info">
           <Information
-            img={Mobile}
+            tag={'fas fa-mobile-alt'}
             title={'Telefone'}
             description={'(11) 4479-3799'}
           />
           <Information
-            img={Clock}
+            tag={'far fa-clock'}
             title={'Funcionamento'}
             description={'SEG A SEX, Das 9h As 18h, SAB, Das 9h As 13h'}
           />
           <Information
-            img={Mail}
+            tag={'far fa-envelope'}
             title={'E-Mail'}
             description={'Rhegional@Rhegional.com.br'}
           />
-          <a href="#">Linkedin</a>
-          <a href="#">Instagram</a>
-          <a href="#">Facebook</a>
+          <SocialLinks
+            tag="fab fa-facebook-square"
+            path="https://www.facebook.com.br"
+          />
+          <SocialLinks
+            tag="fab fa-instagram-square"
+            path="https://www.instagram.com.br"
+          />
+          <SocialLinks
+            tag="fab fa-linkedin"
+            path="https://www.linkedin.com.br"
+          />
         </div>
         <button onClick={toggleMenuBar} className="imgInfo__button">
           <img className="imgInfo__menu" src={MenuButton} alt="MenuButton" />

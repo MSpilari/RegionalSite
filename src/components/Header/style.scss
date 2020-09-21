@@ -40,6 +40,8 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
+    font: 700 1.3rem Roboto;
+    color: $primary-color;
 
     .list__item {
       list-style: none;
@@ -49,19 +51,32 @@
   }
 }
 
-@media (min-width: $desktop-small) {
+@media (min-width: $desktop-medium) {
   .imgInfo__button {
     display: none;
   }
 
   .header {
+    .nav {
+      display: block;
+    }
     .imgInfo {
+      justify-content: space-between;
+      height: 100px;
       .imgInfo__img {
         width: 40%;
+        max-width: 250px;
       }
       .imgInfo__info {
         display: flex;
+        width: 74%;
+        height: 100%;
       }
+    }
+    .list {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
     }
   }
 }
