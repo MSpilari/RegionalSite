@@ -1,0 +1,11 @@
+@import '../../variable';
+
+.input {
+  height: 40px;
+  border-radius: 8px;
+  max-width: 250px;
+  background-color: $background-green;
+  font: 400 1.2rem Roboto;
+  outline: none;
+  border: none;
+}
