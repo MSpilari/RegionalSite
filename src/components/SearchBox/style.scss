@@ -46,16 +46,26 @@
       margin: 0 auto;
 
       display: grid;
-      grid-template-areas: '
-      titulo titulo titulo titulo titulo titulo 
-      Venda Venda Venda Venda Codigo Botao';
+      grid-template-areas:
+        'titulo titulo titulo titulo titulo titulo '
+        'Negociacao Tipo Cidade Bairro Codigo Botao';
+      column-gap: 8px;
 
       .form__title {
         grid-area: titulo;
       }
 
-      .select {
-        grid-area: Venda;
+      .select[name='Negociacao'] {
+        grid-area: Negociacao;
+      }
+      .select[name='Tipo'] {
+        grid-area: Tipo;
+      }
+      .select[name='Cidade'] {
+        grid-area: Cidade;
+      }
+      .select[name='Bairro'] {
+        grid-area: Bairro;
       }
       .input {
         grid-area: Codigo;
@@ -63,6 +73,7 @@
 
       .button {
         grid-area: Botao;
+        width: 244px;
       }
     }
   }
