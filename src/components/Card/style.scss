@@ -1,0 +1,33 @@
+@import '../../variable';
+.Card {
+  width: 100%;
+  margin: 20px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .Card__img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .Card__cod {
+    align-self: flex-end;
+    color: $secondary-color;
+  }
+
+  .Card__neg {
+    font-weight: 700;
+    color: $primary-color;
+  }
+
+  .Card__prec {
+    font: 700 1.8rem Roboto;
+    color: rgb(253, 253, 4);
+  }
+
+  .Card__ende {
+    color: $primary-color;
+  }
+}
