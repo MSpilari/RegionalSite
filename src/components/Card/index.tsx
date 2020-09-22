@@ -39,13 +39,29 @@ const Card: React.FC<CardProps> = ({ data }) => {
       <span className="Card__cod">{cod}</span>
       <span className="Card__neg">{tipoN}</span>
       <span className="Card__prec">R$ {prec}</span>
-      <span className="fas fa-map-marker-alt Card__ende">{ende}</span>
+      <span className="Card__ende">
+        <i className="fas fa-map-marker-alt"></i>
+        {ende}
+      </span>
+
       <div className="Info">
         <span className="Info__tam">{tam} m²</span>
-        <span className="Info__dorms">{dorms}</span>
-        <span className="Info__suite">{suit}</span>
-        <span className="Info__wc">{wc}</span>
-        <span className="Info__vagas">{vagas}</span>
+        <span className="Info__dorms">
+          <i className="fas fa-bed"></i>
+          {dorms}
+        </span>
+        <span className="Info__suite">
+          <i className="fas fa-th-large"></i>
+          {suit}
+        </span>
+        <span className="Info__wc">
+          <i className="fas fa-bath"></i>
+          {wc}
+        </span>
+        <span className="Info__vagas">
+          <i className="fas fa-car-side"></i>
+          {vagas}
+        </span>
       </div>
       <span className="TipoI">{tipoI}</span>
     </div>

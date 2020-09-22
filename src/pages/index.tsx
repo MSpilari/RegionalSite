@@ -33,6 +33,9 @@ const Home: React.FC = () => {
       >
         <Card data={data} />
       </Container>
+      <Container title={'Destaques'}>
+        <Card data={data} />
+      </Container>
     </>
   )
 }

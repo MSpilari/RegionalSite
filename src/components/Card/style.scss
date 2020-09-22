@@ -1,4 +1,5 @@
 @import '../../variable';
+
 .Card {
   width: 100%;
   margin: 20px 0;
@@ -6,9 +7,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: $primary-color;
 
   .Card__img {
     width: 100%;
+    max-width: 400px;
     border-radius: 8px;
   }
 
@@ -25,9 +28,48 @@
   .Card__prec {
     font: 700 1.8rem Roboto;
     color: rgb(253, 253, 4);
+    margin: 10px 0;
   }
 
   .Card__ende {
     color: $primary-color;
+    font-size: 1.1rem;
+    margin: 10px 0;
+
+    i {
+      margin-right: 5px;
+    }
+  }
+
+  .Info {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+
+    .Info__tam,
+    .Info__dorms,
+    .Info__suite,
+    .Info__wc,
+    .Info__vagas {
+      font: 500 1.3rem Roboto;
+      display: flex;
+      align-items: center;
+
+      i {
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+@media (min-width: $desktop-small) and (max-width: $desktop-medium) {
+  .Card {
+    width: 50%;
+  }
+}
+@media (min-width: $desktop-medium) {
+  .Card {
+    width: 30%;
   }
 }
