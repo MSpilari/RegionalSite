@@ -15,6 +15,16 @@
     border-radius: 8px;
   }
 
+  .Card__titleBlog {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .Card__descBlog {
+    text-align: center;
+    margin: 20px 0;
+    color: $secondary-color;
+  }
+
   .Card__cod {
     align-self: flex-end;
     color: $secondary-color;

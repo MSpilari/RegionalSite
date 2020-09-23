@@ -20,6 +20,12 @@ const Home: React.FC = () => {
     vagas: 1,
     tipoI: 'Apartamento'
   }
+  const dataBlog = {
+    imgBlog: ExampleImg,
+    title: 'Lar Doce Lar: Os desafios do Home Office',
+    desc:
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos iure delectus, qui sed possimus vero pariatur eius nihil nobis dolorem ut minima temporibus asperiores accusantium, aliquid est, quaerat beatae sit.'
+  }
 
   return (
     <>
@@ -33,8 +39,19 @@ const Home: React.FC = () => {
       >
         <Card data={data} />
       </Container>
-      <Container title={'Destaques'}>
+      <Container title={'Destaques'} isSpot>
         <Card data={data} />
+      </Container>
+      <Container
+        title={'Imóveis para Venda'}
+        desc={
+          'O sonho da casa própria está mais próximo do que você imagina. Conheça nossos imóveis à venda e agende uma visita com um corretor.'
+        }
+      >
+        <Card data={data} />
+      </Container>
+      <Container title={'Blog'}>
+        <Card dataBlog={dataBlog} />
       </Container>
     </>
   )

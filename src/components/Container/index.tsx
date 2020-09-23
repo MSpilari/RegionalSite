@@ -15,8 +15,10 @@ const Container: React.FC<ContainerProps> = ({
   children,
   isSpot = false
 }) => {
+  const styleContainer = isSpot ? { backgroundColor: '#f8f88c' } : null
+
   return (
-    <div className="Container">
+    <div className="Container" style={styleContainer}>
       <h1 className="Container__title">{title}</h1>
       <div className="square"></div>
       <div className="Container__carrossel">
