@@ -4,6 +4,8 @@ import Container from '../components/Container'
 
 import Header from '../components/Header'
 import SearchBox from '../components/SearchBox'
+import Form from '../components/Form'
+import Footer from '../components/Footer'
 import ExampleImg from '../assets/example.jpg'
 
 const Home: React.FC = () => {
@@ -53,6 +55,8 @@ const Home: React.FC = () => {
       <Container title={'Blog'}>
         <Card dataBlog={dataBlog} />
       </Container>
+      <Form />
+      <Footer />
     </>
   )
 }
