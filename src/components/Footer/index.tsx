@@ -40,13 +40,13 @@ const Footer: React.FC = () => {
             path="https://www.linkedin.com.br"
           />
         </div>
-        <div>
-          <p>
-            2020 Rhegional Imóveis - Todos os direitos reservados|
-            <br />
-            Criado por MSpilari
-          </p>
-        </div>
+      </div>
+      <div className="Footer__info">
+        <span className="Footer__text">
+          2020 Rhegional - Todos os direitos reservados |
+          <br />
+          Criado por MSpilari
+        </span>
       </div>
     </footer>
   )

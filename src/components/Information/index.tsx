@@ -14,7 +14,7 @@ const Information: React.FC<InformationProps> = ({
   description
 }) => {
   return (
-    <div className="information">
+    <div className="information" id={title}>
       <i className={tag}></i>
       <div className="information__div">
         <span className="information__title">{title}</span>
