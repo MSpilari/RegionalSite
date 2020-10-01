@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "img": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "cod": "01234",
+      "tipoN": "Locação",
+      "prec": 2185,
+      "ende": "São Caetano do Sul, Santa Paula, SP",
+      "tam": 150,
+      "dorms": 3,
+      "suit": 1,
+      "wc": 3,
+      "vagas": 1,
+      "tipoI": "Apartamento"
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "cod": "5678",
+      "tipoN": "Locação",
+      "prec": 1500,
+      "ende": "Santo André, Vila Metalúrgica, SP",
+      "tam": 150,
+      "dorms": 3,
+      "suit": 1,
+      "wc": 3,
+      "vagas": 1,
+      "tipoI": "Casa"
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "cod": "9101112",
+      "tipoN": "Locação",
+      "prec": 1500,
+      "ende": "Santo André, Vila Metalúrgica, SP",
+      "tam": 150,
+      "dorms": 3,
+      "suit": 1,
+      "wc": 3,
+      "vagas": 1,
+      "tipoI": "Casa"
+    }
+  ],
+  "dataBlog": [
+    {
+      "imgBlog": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "title": "Lar Doce Lar: Os desafios do Home Office",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos iure delectus, qui sed possimus vero pariatur eius nihil nobis dolorem ut minima temporibus asperiores accusantium, aliquid est, quaerat beatae sit."
+    },
+    {
+      "imgBlog": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "title": "Lar Doce Lar: Os desafios do Home Office",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos iure delectus, qui sed possimus vero pariatur eius nihil nobis dolorem ut minima temporibus asperiores accusantium, aliquid est, quaerat beatae sit."
+    },
+    {
+      "imgBlog": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "title": "Lar Doce Lar: Os desafios do Home Office",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos iure delectus, qui sed possimus vero pariatur eius nihil nobis dolorem ut minima temporibus asperiores accusantium, aliquid est, quaerat beatae sit."
+    }
+  ]
+}
