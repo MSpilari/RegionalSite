@@ -1,0 +1,65 @@
+.Carrossel {
+  position: relative;
+  width: 100%;
+  display: flex;
+  .Carrossel__wrapper {
+    display: flex;
+    width: 100%;
+    margin: 30px 0;
+    overflow-x: hidden;
+
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+
+    .Carrossel__item {
+      flex: none;
+      list-style: none;
+      width: fit-content;
+      margin: 0 auto;
+
+      scroll-snap-align: start;
+    }
+  }
+  .button[name='Rigth'] {
+    width: 50px;
+    height: 40px;
+    font: 700 1.7rem Roboto;
+
+    position: absolute;
+    top: 5px;
+    right: 0px;
+  }
+
+  .button[name='Left'] {
+    width: 50px;
+    height: 40px;
+    font: 700 1.7rem Roboto;
+
+    position: absolute;
+    top: 5px;
+    right: 60px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 1023px) {
+  .Carrossel {
+    .Carrossel__wrapper {
+      .Carrossel__item {
+        width: 49%;
+        margin: 0 5px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .Carrossel {
+    .Carrossel__wrapper {
+      .Carrossel__item {
+        width: 35%;
+        margin: 0 5px;
+        max-width: 325px;
+      }
+    }
+  }
+}

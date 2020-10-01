@@ -72,14 +72,3 @@
     }
   }
 }
-
-@media (min-width: $desktop-small) and (max-width: $desktop-medium) {
-  .Card {
-    width: 50%;
-  }
-}
-@media (min-width: $desktop-medium) {
-  .Card {
-    width: 30%;
-  }
-}
