@@ -1,30 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Rhegional Site
 
-## Getting Started
+![GitHub](https://img.shields.io/github/license/MSpilari/Regionalsite?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/MSpilari/RegionalSite?style=plastic)
+![Regional Logo](./src/assets/RhegionalLogo.svg)
 
-First, run the development server:
+## :dart: Objetivo
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Este projeto foi criado com o objetivo de conhecer, treinar algumas das tecnologias usadas no mesmo e aplicá-las de uma forma útil.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## :star: Destaques
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Durante este projeto consegui criar um **carrossel** simples, usando **Javascript Vanilla**.
 
-## Learn More
+## :package: Tecnologias utilizadas
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Next](https://nextjs.org/)
+- [Prettier](https://prettier.io/)
+- [Eslint](https://eslint.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Sass](https://sass-lang.com/)
