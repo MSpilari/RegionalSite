@@ -26,7 +26,7 @@ const Header: React.FC = () => {
           <Information
             tag={'far fa-clock'}
             title={'Funcionamento'}
-            description={'SEG A SEX, Das 9h As 18h, SAB, Das 9h As 13h'}
+            description={'SEG A SEX, Das 9h As 18h,\nSAB, Das 9h As 13h'}
           />
           <Information
             tag={'far fa-envelope'}
@@ -53,13 +53,27 @@ const Header: React.FC = () => {
 
       <nav className="nav hide">
         <ul className="list">
-          <li className="list__item">Início</li>
-          <li className="list__item">Sobre</li>
-          <li className="list__item">Alugar</li>
-          <li className="list__item">Vender</li>
-          <li className="list__item">Favoritos</li>
-          <li className="list__item">Blog</li>
-          <li className="list__item">Contato</li>
+          <li className="list__item">
+            <a href="#">Início</a>
+          </li>
+          <li className="list__item">
+            <a href="#">Sobre</a>
+          </li>
+          <li className="list__item">
+            <a href="#">Alugar</a>
+          </li>
+          <li className="list__item">
+            <a href="#">Vender</a>
+          </li>
+          <li className="list__item">
+            <a href="#">Favoritos</a>
+          </li>
+          <li className="list__item">
+            <a href="#">Blog</a>
+          </li>
+          <li className="list__item">
+            <a href="#">Contato</a>
+          </li>
         </ul>
       </nav>
     </header>

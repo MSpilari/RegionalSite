@@ -19,6 +19,9 @@
 
     .imgInfo__info {
       display: none;
+      .information {
+        white-space: pre-wrap;
+      }
     }
 
     .imgInfo__button {
@@ -47,6 +50,11 @@
       list-style: none;
       font-size: 1.2rem;
       line-height: 1.8rem;
+      border-bottom: solid 2px transparent;
+
+      &:hover {
+        border-color: $primary-color;
+      }
     }
   }
 }
